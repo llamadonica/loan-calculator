@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Loan Calculator",
+  "version": "1.0.0.1",
+  "minimum_chrome_version": "23",
+  "default_locale": "en",
+  "icons": {
+    "16": "icon_16.png",
+    "48": "icon_48.png",
+    "128": "icon_128.png"
+  },
+  "app": {
+    "background": {
+      "scripts": ["main.js"]
+    }
+  },
+  "author": "Adam Stark <llamadonica@gmail.com>",
+  "short_name": "loan-calculator",
+  "permissions": [
+    "storage"
+  ]
+}
