@@ -1,0 +1,106 @@
+/*
+ * main.css
+ * 
+ * Copyright (c) 2013, Adam Stark <llamadonica@gmail.com>
+ * All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions are met:
+ *
+ * 1. Redistributions of source code must retain the above copyright notice,
+ * this list of conditions and the following disclaimer.
+ * 
+ * 2. Redistributions in binary form must reproduce the above copyright notice,
+ * this list of conditions and the following disclaimer in the documentation
+ * and/or other materials provided with the distribution.
+ *  
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+ * AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ * ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE
+ * LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+ * CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF 
+ * SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+ * INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+ * CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+ * POSSIBILITY OF SUCH DAMAGE.
+ */
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 5px;
+  background-color: #CECECE;
+}
+
+h1 {
+  text-align: center;
+  width: 100%;
+  line-height: 120%;
+  font-family: Arial, sans-serif;
+  color: rgb(66,66,66);
+  letter-spacing: -0.05em;
+}
+
+input[type="text"] {
+  text-align:right; 
+}
+input[name="interest"],
+input[name="termLength"] {
+  width: 60px;
+}
+input[name="periodicity"] {
+  width: 30px;
+}
+
+input[name="paymentValue"] {
+  width: 90px;
+}
+input[type="submit"] {
+  float: right;
+}
+label {
+  font-weight: bold;
+}
+label.initLabel  {
+  width: 80px;
+  display: inline-block;
+}
+html.amortization {
+  overflow-y: scroll;
+}
+.amortization body {
+  overflow: visible;
+  padding: 15px;
+  background-color: #ffffff;
+}
+.amortization dt {
+  font-weight: bold;
+}
+.amortization table {
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+.amortization th {
+  background: lightgray;
+  border: gray solid 1px;
+}
+.amortization td {
+  border: gray solid 1px;
+  padding-right: 5px;
+}
+.money {
+  text-align: right;
+}
+.odd td {
+  background: aliceblue;
+}
+.dollarSign {
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px;
+}
